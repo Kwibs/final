@@ -1,4 +1,5 @@
-/* Reset styles */
+
+  
 body, html {
     margin: 0;
     padding: 0;
@@ -98,5 +99,10 @@ body, html {
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
   }
   
