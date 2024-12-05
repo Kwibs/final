@@ -1,0 +1,52 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fullscreen layout */
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Container styling */
+  .container {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
