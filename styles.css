@@ -22,6 +22,26 @@ body, html {
   .container {
     animation: fadeIn 2s ease-in-out;
   }
+
+  .project-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2a5298;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .project-link:hover {
+    background-color: white;
+    color: #2a5298;
+    transform: scale(1.05);
+  }
+  
   
   /* Title styling */
   .title {
